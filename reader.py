@@ -7,7 +7,6 @@ import os
 import numpy as np
 import tensorflow as tf
 
-
 def _read_text(filename):
   with tf.gfile.GFile(filename, "r") as f:
     return f.read()
