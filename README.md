@@ -5,7 +5,7 @@ Multi-layer Recurrent Neural Networks (LSTM, RNN) for character-level language m
 Tensorflow
 
 # Sample data
-Pulled Obama's speeches from [whitehouse press release](https://www.whitehouse.gov/briefing-room/speeches-and-remarks). 
+Obama's speeches pulled from [whitehouse press release](https://www.whitehouse.gov/briefing-room/speeches-and-remarks). 
 
 # Usage
 `python train.py --txt_path=obama.txt --session_path=./checkpoints` to train and `python sample.py` to try on sample text. 
